@@ -1,0 +1,32 @@
+$primary-color: rgb(227, 227, 227);
+$secondary-color: rgb(197, 131, 0);
+
+body {
+  margin: 0;
+  background-color: $primary-color;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(108, 108, 108);
+
+  img {
+    width: 80px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  li {
+    padding-inline: 1em;
+    color: $primary-color;
+  }
+
+  li:hover {
+    color: $secondary-color;
+  }
+}

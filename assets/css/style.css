@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: rgb(227, 227, 227);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(108, 108, 108);
+}
+nav img {
+  width: 80px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav li {
+  padding-inline: 1em;
+  color: rgb(227, 227, 227);
+}
+nav li:hover {
+  color: rgb(197, 131, 0);
+}/*# sourceMappingURL=style.css.map */
